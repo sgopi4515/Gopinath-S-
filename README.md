@@ -1,4 +1,4 @@
-                                          Warrior - Ecommerce Website
+                                          **Warrior - Ecommerce Website**
  -------------------------------------------------------------------------------------------------
                                                                       
                          Success isn't always about greatness. It's about consistency. Consistent
