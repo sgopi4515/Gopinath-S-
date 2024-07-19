@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Track</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1 class="gallery-heading">Image Gallery</h1>
+    </header>
+    
+    <div class="gallery">
+        <div class="gallery-item" onclick="openModal(0)">
+            <img src="https://iili.io/d36prss.jpg" alt="Venice Italie">
+        </div>
+        <div class="gallery-item" onclick="openModal(1)">
+            <img src="https://iili.io/d36pUzX.jpg" alt="Venice Italie">
+        </div>
+        <div class="gallery-item" onclick="openModal(2)">
+            <img src="https://iili.io/d36p6qG.jpg" alt="France">
+        </div>
+        <div class="gallery-item" onclick="openModal(3)">
+            <img src="https://iili.io/d36pP1f.jpg" alt="Street View">
+        </div>
+        <div class="gallery-item" onclick="openModal(4)">
+            <img src="https://iili.io/d36pQ72.jpg" alt="Provence">
+        </div>
+        <div class="gallery-item" onclick="openModal(5)">
+            <img src="https://iili.io/d36pgXn.jpg" alt="Harbor by night ">
+        </div>
+
+        <div class="gallery-item" onclick="openModal(6)">
+            <img src="https://iili.io/d36pLdl.jpg" alt="Paris at night ">
+        </div>
+        <div class="gallery-item" onclick="openModal(7)">
+            <img src="https://iili.io/d36p8bt.jpg" alt="Sunflowers ">
+        </div>
+        <div class="gallery-item" onclick="openModal(8)">
+            <img src="https://iili.io/d36ptm7.jpg"  alt="Amsterdam ">
+        </div>
+        <div class="gallery-item" onclick="openModal(9)">
+            <img src="https://iili.io/d36pig4.jpg" alt="Cliff coast ">
+        </div>
+
+
+
+        <div class="gallery-item" onclick="openModal(10)">
+            <img src="https://iili.io/d36pmXe.jpg" alt="Sunrise ">
+        </div>
+        <div class="gallery-item" onclick="openModal(11)">
+            <img src="https://iili.io/d36y9qb.jpg" alt="Image ">
+        </div>
+        <div class="gallery-item" onclick="openModal(12)">
+            <img src="https://iili.io/d36pbI9.jpg" alt="Sea at night ">
+        </div>
+        <div class="gallery-item" onclick="openModal(13)">
+            <img src="https://iili.io/d36pZeS.jpg" alt="Venice Italie ">
+        </div>
+        <div class="gallery-item" onclick="openModal(14)">
+            <img src="https://iili.io/d3PBjB2.jpg" alt="Image ">
+        </div>
+        
+    </div>
+
+    <div id="modal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+            <div class="modal-left">
+                <img id="modal-img" src="" alt="Modal Image">
+            </div>
+            <div class="modal-right">
+                <p id="modal-text"></p>
+                <button class="nav-btn" onclick="prevImage()">&#9664;</button>
+                <button class="nav-btn" onclick="nextImage()">&#9654;</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
